@@ -1,0 +1,92 @@
+/* Base page setup */
+  body {
+    background: #121212;
+    color: #e0f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+  }
+
+  h1 {
+    color: #6cfffa;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  /* Inline layout for input + buttons */
+  input[type="text"],
+  button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
+    height: 36px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  /* Input styling */
+  input[type="text"] {
+    width: 200px;
+    padding: 0 10px;
+    background: #1c2a3a;
+    color: #e0f7fa;
+    border: 1px solid #4fc3f7;
+    
+  }
+  input::placeholder {
+    color: #777;
+  }
+
+  /* Primary buttons */
+  button {
+    padding: 0 12px;
+    background: #4fc3f7;
+    color: #000;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  button:hover {
+    background: #29b6f6;
+  }
+
+  /* To‑do list container */
+  #todos {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Individual to‑do items */
+  .todo-item {
+    border-left: 4px solid #4fc3f7;
+    background: #1c2a3a;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .todo-item h1 {
+    font-size: 16px;
+    color: #eee;
+    margin: 0;
+    flex: 1;
+    text-align: left;
+  }
+
+  /* Delete‑item button */
+  .todo-item button {
+    background: #ef4242;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+  .todo-item button:hover {
+    background: #d32f2f;
+  }
