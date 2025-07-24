@@ -1,11 +1,24 @@
-# My HTML Project
+# 🌐 My HTML Project
 
-This is a simple HTML/CSS project hosted on Vercel.
+A simple and clean HTML/CSS project made for practice.  
+Deployed live using [Vercel](https://vercel.com).
 
-🔗 [Live Demo](https://your-vercel-site.vercel.app)
+---
 
-## Tech Stack
+## 🚀 Live Demo
 
-- HTML5
-- CSS3
-- Deployed on Vercel
+🔗 [Click here to view the website](https://my-html-project-beta.vercel.app)
+
+---
+
+## 🛠️ Features
+
+- Responsive HTML layout
+- Clean and minimal design
+- Hosted on Vercel for free
+
+---
+
+## 📁 Project Structure
+
+
